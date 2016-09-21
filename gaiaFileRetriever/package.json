@@ -1,0 +1,16 @@
+{
+  "name": "gaia-file-retriever",
+  "version": "1.0.0",
+  "description": "Retrieves a file from an HTTP url and streams it up to S3 storage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charlie Hoey <me@charliehoey.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.6.3",
+    "s3-upload-stream": "^1.0.7"
+  }
+}
